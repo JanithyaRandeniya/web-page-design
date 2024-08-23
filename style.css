@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+}
+
+header
+nav{
+    background-color:#872929;
+    margin: 0;
+    padding-right: 300px;
+    overflow: hidden;
+    height: 66px;
+    width:100%;
+    text-align:left;
+    
+}
+*{ 
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+    
+}
+nav ul{
+    display: block;
+    position:fixed;
+    font-family: 'Roboto', sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 5px;
+    margin:5px;
+    text-transform:capitalize;
+}
+
+
+.container{
+    display:flex;
+}
+
+.maincontainer{
+    margin-left:50rem
+}
+.list1{
+    margin-left:920px;
+    padding:10px;
+
+}
+img {
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.c{
+  text-align: center;
+  text-decoration-color: black;
+  text-decoration: underline;
+  color: black;
+  padding: 5vh;  
+  font-size: 30px;
+}
+.p{
+    text-align:center;
+    text-decoration: underline;
+}
+.footer-h6{
+    color:gray;
+    text-align:center;
+    font-size: medium;
+}
+
+{
+
+@media only screen and (max-width: 600px) 
+
+    body {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    
+    header nav {
+        height: 66px;
+        width:100%;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 2px;
+        margin:5px;
+        text-transform:capitalize;
+    }
+    *{ 
+        padding:0;
+        margin:0;
+        text-decoration:none;
+        list-style:none;
+        box-sizing:border-box;
+        
+    }
+    .c{
+        text-align: center;
+        text-decoration-color: black;
+        text-decoration: underline;
+        color: black;
+        padding: 5vh;  
+        font-size: 30px;
+      }
+      .p{
+        text-align:center;
+        text-decoration: underline;
+      }
+      img {
+        border-style: none;
+        height: auto;
+        max-width: 50%;
+        vertical-align: middle;
+    }
+    
+    .footer-h6{
+        color:gray;
+        text-align:center;
+        font-size: medium;
+    
+    }
+}
+
+
+
+
